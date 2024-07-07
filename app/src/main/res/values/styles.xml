@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="welcome_to_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#A0A7BE</item>
+    </style>
+
+
+
+
+
+
+</resources>
