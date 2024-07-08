@@ -10,16 +10,14 @@
 
 
     <ImageView
-
         android:layout_width="wrap_content"
-        android:scaleType="centerCrop"
-        android:layout_height="700"
+        android:layout_height="wrap_content"
         app:layout_constraintVertical_bias="0"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/___house"
+        android:src="@drawable/house"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -32,6 +30,7 @@
         android:text="@string/welcome_to_the"
         android:fontFamily="monospace"
         android:textColor="#8A8383"
+        app:layout_constraintVertical_bias="0.62"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         />
     <TextView
@@ -42,19 +41,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="@string/welcome_to_the"
+        android:text="@string/bari_bhara"
         android:fontFamily="monospace"
         android:textColor="#FA7363"
         app:layout_constraintVertical_bias="0.7"
-        android:textSize="@dimen/_20ssp"
+        android:textSize="@dimen/_30ssp"
         android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
         />
 
-
-
-
-
-
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/getstartedbtn"
+        android:layout_width="@dimen/_174sdp"
+        android:layout_height="@dimen/_56sdp"
+        android:text="@string/get_started"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:backgroundTint="#156F6C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
