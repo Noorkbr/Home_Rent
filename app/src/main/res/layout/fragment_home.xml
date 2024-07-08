@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".HomeFragment">
+    tools:context=".HomeFragment"
+    android:background="@color/white"
+    >
 
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
@@ -28,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_18ssp"
         android:layout_marginTop="@dimen/_80ssp"
-        android:text="related to?"
+        android:text="@string/related_to"
         android:textStyle="bold"
         android:textColor="#FA7363"
         android:textSize="@dimen/_24ssp"
@@ -42,12 +44,32 @@
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="@dimen/_16ssp"
         android:backgroundTint="#E9F3FF"
-        android:hint="Search"
+        android:hint="@string/search"
         app:layout_constraintTop_toBottomOf="@id/home_title2" />
 
-
-
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/trendItemRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20ssp"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/_20ssp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchBar"
+        tools:listitem="@layout/trending_item_layout" />
+    <TextView
+        android:id="@+id/home_title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_18ssp"
+        android:layout_marginTop="@dimen/_190sdp"
+        android:text="Trending Places"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/trendItemRecycler" />
 
 
 

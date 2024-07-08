@@ -13,6 +13,9 @@ Welcome to the \nHouse Booking!
     <string name="messages">Messages</string>
     <string name="home">Home</string>
     <string name="what_do_you">What do you</string>
+    <string name="stays">Stays</string>
+    <string name="search">Search</string>
+    <string name="related_to">related to?</string>
 
 
 </resources>
