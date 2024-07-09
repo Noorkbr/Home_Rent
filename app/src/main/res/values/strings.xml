@@ -16,6 +16,9 @@ Welcome to the \nHouse Booking!
     <string name="stays">Stays</string>
     <string name="search">Search</string>
     <string name="related_to">related to?</string>
+    <string name="the_palace_luxury">The Palace Luxury</string>
+    <string name="_20000_tk">20000 Tk</string>
+    <string name="trending_places">Trending Places</string>
 
 
 </resources>
