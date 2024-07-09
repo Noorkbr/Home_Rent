@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/_250sdp"
+    android:layout_width="@dimen/_300sdp"
     android:layout_height="@dimen/_250sdp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
 
     >
     <LinearLayout
@@ -20,7 +21,7 @@
             <ImageView
                 android:id="@+id/itemImagex"
                 android:layout_height="match_parent"
-                android:layout_width="match_parent"
+                android:layout_width="@dimen/_250sdp"
                 android:src="@drawable/palace"
                 android:scaleType="centerCrop"/>
 
